@@ -1,0 +1,10 @@
+server:
+  port: 8085
+spring:
+  mvc:
+    async:
+      request-timeout: 15000
+    datasource:
+      url: jdbc:mysql://47.106.140.204:3306/blog?useUnicode=true&characterEncoding=utf8&autoReconnect=true
+      username: root
+      password: 123456
