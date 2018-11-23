@@ -1,7 +1,9 @@
 package cn.lisp.blog.mapper;
 
 import cn.lisp.blog.model.User;
+import org.apache.ibatis.annotations.Mapper;
 
+@Mapper
 public interface UserMapper {
     int deleteByPrimaryKey(Integer id);
 
