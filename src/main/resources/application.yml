@@ -15,7 +15,7 @@ spring:
   aop:
     proxy-target-class: true
   application:
-    name: BASEINFO-SERVICE
+    name: blog
   mvc:
     favicon:
       enabled: false
